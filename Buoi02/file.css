@@ -1,0 +1,25 @@
+table{
+    border: 5px groove rgb(230, 135, 198);
+    padding: 1px;
+}
+td{
+    border: solid thin  rgb(230, 135, 198);
+}
+tr.odd{
+    background-color: rgb(218, 166, 191);
+}
+tr.even{
+    background-color: rgb(242, 217, 229);
+}
+tr.header{
+    background-color: rgb(233, 127, 197);
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+th{
+    border: solid thin  rgb(230, 135, 198);
+    padding: 5px;
+    background-color: rgb(101, 185, 137);
+    color: white;
+}

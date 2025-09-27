@@ -1,0 +1,39 @@
+<head>
+    <title>Hiệu ứng di chuyển</title>
+    <style type="text/css">
+        #test{
+            width: 100px;
+            height: 100px;
+            position: relative;
+            animation-name: move;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes move {
+            0% {
+                top: 0px;
+                left: 0px;
+                background-color: deepskyblue;
+            }
+            20% {
+                top: 0px;
+                left: 500px;
+                background-color: rgb(173, 24, 173);
+            }
+            40%{
+                top: 400px;
+                left: 500px;
+                background-color: crimson;
+            }
+            100%{
+                top: 0px;
+                left: 0px;
+                background-color: deepskyblue;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div id="test"></div>
+</body>

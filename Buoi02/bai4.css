@@ -1,0 +1,25 @@
+body{
+    background-image: url('SV_BUOI2_CSS/images/bg.jpg');
+    background-position: bottom center;
+    background-attachment: local;
+}
+#khungtrang{
+    width: 90%;
+    background-color: white;
+    opacity: 0.7;
+    margin: auto;
+    padding: 10px;
+    border: thin rgb(213, 231, 52) solid;
+    border-radius: 15px;
+}
+h3{
+    color: rgb(13, 103, 38);
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(149, 140, 140);
+}
+p{
+    color: rgb(29, 100, 44);
+    font-size: 17px;
+    text-shadow: 3px 3px 3px rgb(149, 140, 140);
+}
